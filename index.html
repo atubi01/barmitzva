@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <title>אישור הגעה לבר המצווה של איתי</title>
   <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
@@ -30,16 +31,16 @@
     }
 
     form {
-      background-color: #fff;
-      max-width: 600px;
-      margin: auto;
-      padding: 2rem;
-      border-radius: 15px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
-      border: 1px solid #e0dccc;
-      position: relative;
-      z-index: 1;
-    }
+  background-color: #fff;
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border: 1px solid #e0dccc;
+  position: relative;
+  z-index: 1;
+}
 
     h2 {
       text-align: center;
@@ -79,12 +80,12 @@
     .radio-group label {
       font-weight: normal;
       color: #444;
-      margin: 0;
+     margin: 0;
     }
 
     #guests {
-      width: 120px;
-    }
+      max-width: 100%;
+  }
 
     .buttons {
       margin-top: 2rem;
@@ -155,8 +156,8 @@
   </style>
 </head>
 <body>
-<img src="assets/images/wheat-right.png" class="wheat-right" alt="שיבולים ימין">
-<img src="assets/images/wheat-left.png" class="wheat-left" alt="שיבולים שמאל">
+<img src="assets/images/wheat-right.png" class="wheat-right" style="max-width: 60px;" alt="שיבולים ימין">
+<img src="assets/images/wheat-left.png" class="wheat-left" style="max-width: 60px;" alt="שיבולים שמאל">
 
 <form id="rsvpForm">
   <div class="quote-container">
@@ -175,7 +176,7 @@
   </div>
   <h2>אישור הגעה לבר המצווה של איתי</h2>
 
-  <table style="width: calc(100% - 2rem); margin: 0 auto; border-spacing: 0 1.5rem;">
+  <table style="width: 100%; border-spacing: 0 1.5rem;">
     <tr>
       <td style="white-space: nowrap; vertical-align: middle;"><label for="fullName">שם ושם משפחה *</label></td>
       <td><input type="text" id="fullName" name="entry.212927555" style="width: 80%;" required></td>
