@@ -40,3 +40,9 @@ w
 G.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,f\0\f0e0f9cec86fe4b939ae22be5264c758801eb28f
 Å
 Q.idea/sonarlint/securityhotspotstore/c/b/cb3c84c03f3ba8a7ae280d0cd53da5f5d0d1babb,6\4\64a18bceb907eea1aac28b41d8f8585a86b3e76e
+B
+index_desktop.html,e\a\ea0ec7eb5972746335fbd6460d0a5b17a99c5a46
+A
+index_mobile.html,f\0\f02452bc40b415e192a5d131896b74a7249930ac
+D
+thankyou_mobile.html,0\8\085926a0d4d7fb3c9c83ba0d11c411e78e303a95

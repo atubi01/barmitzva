@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>אישור הגעה לבר המצווה של איתי</title>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Varela Round', sans-serif;
+      background: #f8f6f2;
+      padding: 2rem;
+      position: relative;
+    }
+
+    .wheat-left, .wheat-right {
+      position: absolute;
+      top: 35%;
+      width: 120px;
+      height: auto;
+      opacity: 0.7;
+      z-index: 0;
+    }
+
+    .wheat-left {
+      left: 0;
+    }
+
+    .wheat-right {
+      right: 0;
+    }
+
+    form {
+  background-color: #fff;
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border: 1px solid #e0dccc;
+  position: relative;
+  z-index: 1;
+}
+
+    h2 {
+      text-align: center;
+      color: #6b4e2e;
+      margin-bottom: 1.5rem;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+        color: #5c4b36;
+    }
+
+       input[type="text"],
+  input[type="tel"],
+  input[type="number"] {
+  display: inline-block;
+  width: 100%;
+  padding: 0.6rem;
+  border: none;
+  border-bottom: 2px solid #a3845f;
+  border-radius: 0;
+  font-size: 1rem;
+  background-color: transparent;
+  outline: none;
+}
+
+    .radio-group {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+      margin-top: 0.5rem;
+    }
+
+    .radio-group label {
+      font-weight: normal;
+      color: #444;
+     margin: 0;
+    }
+
+    #guests {
+      max-width: 100%;
+  }
+
+    .buttons {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    button {
+      padding: 0.7rem 1.5rem;
+      border-radius: 10px;
+      font-size: 1rem;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    #submitBtn {
+      background-color: #a3845f;
+      color: white;
+    }
+
+    #resetBtn {
+      background-color: #ddd4c4;
+      color: #333;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+
+    .quote-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+
+    .quote-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  opacity: 0.85;
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 100%);
+  -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 100%);
+  box-shadow: none;
+  align-self: flex-start;
+}
+
+    .quote {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #6b4e2e;
+      font-weight: bold;
+      text-align: right;
+    }
+
+    .quote span {
+      font-size: 0.9rem;
+      font-weight: normal;
+      display: block;
+      margin-top: 0.5rem;
+    }
+    h3 {
+      text-align: center;
+      color: #6b4e2e;
+      margin-bottom: 1.5rem;
+    }
+
+   td {
+  padding: 0.5rem 0.5rem;
+}
+  </style>
+</head>
+<body>
+<img src="assets/images/wheat-right.png" class="wheat-right" style="max-width: 60px;" alt="שיבולים ימין">
+<img src="assets/images/wheat-left.png" class="wheat-left" style="max-width: 60px;" alt="שיבולים שמאל">
+
+<form id="rsvpForm">
+  <div align="center">
+    <h3>אנא אשרו הגעתכם
+      לשמחת בר המצווה של</h3>
+    <label style="font-size: 2.5rem;"><b>איתי</b></label>
+  </div>
+
+  <table style="width: 40%; margin: 0 auto; border-spacing: 0 1.5rem;">
+    <tr>
+      <td style="white-space: nowrap; vertical-align: middle;"><label for="fullName">שם מלא *</label></td>
+      <td><input type="text" id="fullName" name="entry.212927555" style="width: 250px;" required></td>
+    </tr>
+    <tr>
+      <td style="white-space: nowrap;"><label>האם תגיעו? *</label></td>
+      <td>
+        <div class="radio-group">
+          <label><input type="radio" name="entry.468716135" value="נגיע" required>נגיע</label>
+          <label><input type="radio" name="entry.468716135" value="לא נגיע">לא נגיע</label>
+          <label><input type="radio" name="entry.468716135" value="לא ידוע כרגע">לא ידוע כרגע</label>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td style="white-space: nowrap;"><label id="guestsLabel" for="guests">מספר המגיעים</label></td>
+      <td><input type="number" id="guests" name="entry.640230255" min="1" max="9" style="width: 60px;" disabled></td>
+    </tr>
+    <tr>
+      <td style="white-space: nowrap;"><label for="phone">טלפון *</label></td>
+      <td><input type="tel" id="phone" name="entry.1962049426" style="width: 250px;" required></td>
+    </tr>
+  </table>
+
+  <div class="buttons">
+    <button type="reset" id="resetBtn">ניקוי</button>
+    <button type="submit" id="submitBtn">שליחה</button>
+  </div>
+</form>
+
+<script>
+  const form = document.getElementById('rsvpForm');
+  const guests = document.getElementById('guests');
+  const guestsLabel = document.getElementById('guestsLabel');
+
+  form.addEventListener('change', () => {
+    const attendance = document.querySelector('input[name="entry.468716135"]:checked');
+    if (attendance && (attendance.value === "נגיע" || attendance.value === "לא ידוע כרגע")) {
+      guests.required = true;
+      guests.disabled = false;
+      guests.min = 1;
+      guests.max = 9;
+      if (!guestsLabel.innerText.includes("*")) {
+        guestsLabel.innerText += " *";
+      }
+    } else {
+      guests.required = false;
+      guests.value = "";
+      guests.disabled = true;
+      guestsLabel.innerText = "מספר המגיעים";
+    }
+  });
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+    fetch("https://docs.google.com/forms/u/0/d/e/1FAIpQLSeGxDuVaO0hE8Q3nrLTNa2bzm3j5gfM0O0fHzEOt-1hBDxvsg/formResponse", {
+      method: "POST",
+      mode: "no-cors",
+      body: formData
+    }).then(() => {
+      window.location.href = "thankyou.html";
+    }).catch(() => {
+      alert("אירעה שגיאה בשליחה. נסו שוב מאוחר יותר.");
+    });
+  });
+</script>
+</body>
+</html>
