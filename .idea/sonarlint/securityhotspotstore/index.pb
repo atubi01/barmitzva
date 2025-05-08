@@ -2,8 +2,6 @@
 :
 
 index.html,f\6\f6013a00b362253c64368d6eebc50ea2131754e2
-=
-thankyou.html,b\9\b9a037aa0068f4c2d4583b41d8c4f71396456045
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 Å
@@ -14,8 +12,6 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 >
 Invitation.iml,4\1\41c0388f1d3dfd2710dc8fe71df285dd37fe8c57
-w
-G.idea/sonarlint/issuestore/b/9/b9a037aa0068f4c2d4583b41d8c4f71396456045,c\b\cb3c84c03f3ba8a7ae280d0cd53da5f5d0d1babb
 w
 G.idea/sonarlint/issuestore/4/1/41c0388f1d3dfd2710dc8fe71df285dd37fe8c57,8\2\823d6b70c5aa3d6674987b5f1744a792df09f844
 w
@@ -28,8 +24,6 @@ G.idea/sonarlint/issuestore/9/5/95f3a8c79faf21c03a2cd4fd2ae26f4216082f8d,7\f\7f
 Q.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,b\b\bbf202272a96de5cd6b6828ffdc55fb3ce45289c
 Å
 Q.idea/sonarlint/securityhotspotstore/9/5/95f3a8c79faf21c03a2cd4fd2ae26f4216082f8d,e\c\ec1a7d69925de9324df8c03e2b77c8e147f97402
-w
-G.idea/sonarlint/issuestore/c/b/cb3c84c03f3ba8a7ae280d0cd53da5f5d0d1babb,d\1\d1427296270d72ddfd901fa7b4595243f8c68bd5
 Å
 Q.idea/sonarlint/securityhotspotstore/4/1/41c0388f1d3dfd2710dc8fe71df285dd37fe8c57,5\3\53dfafda0abf39d5c6aec39a7e4580105879e17c
 Å
@@ -40,11 +34,15 @@ w
 G.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,f\0\f0e0f9cec86fe4b939ae22be5264c758801eb28f
 Å
 Q.idea/sonarlint/securityhotspotstore/c/b/cb3c84c03f3ba8a7ae280d0cd53da5f5d0d1babb,6\4\64a18bceb907eea1aac28b41d8f8585a86b3e76e
-B
-index_desktop.html,e\a\ea0ec7eb5972746335fbd6460d0a5b17a99c5a46
-A
-index_mobile.html,f\0\f02452bc40b415e192a5d131896b74a7249930ac
-D
-thankyou_mobile.html,0\8\085926a0d4d7fb3c9c83ba0d11c411e78e303a95
 5
 CNAME,b\9\b9c1aaaf65573c7e15b93b6d826729e7711cf242
+H
+pages/index_desktop.html,7\5\75296756b229ab2c2c639f54d2eb9938ccb2de48
+G
+pages/index_mobile.html,c\4\c4d8d1ddd7770906fd7cdd971fa2b31b3c37ef83
+@
+pages/index.html,a\7\a7eb5dd842a1f7ae4fbd84a9d94c4ec0a1dedf97
+J
+pages/thankyou_mobile.html,2\9\2980e7570af8d2d69dc66b1c22d5274c6abb7389
+C
+pages/thankyou.html,9\c\9c78f83e8ab4d3562407a3698d1063e8b0bd2853
